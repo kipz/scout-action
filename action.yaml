@@ -120,6 +120,14 @@ inputs:
     description: If set, keep but hide previous comment. If not set, keep and update one single comment per job
     required: false
 
+  # attest flags
+  file:
+    required: false
+    description: Path to in-toto files
+  predicate-type:
+    required: false
+    description: Type of in-toto predicate
+
 runs:
   using: node16
   main: index.js
