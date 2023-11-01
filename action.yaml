@@ -121,7 +121,7 @@ inputs:
     required: false
 
   # attest flags
-  file:
+  files:
     required: false
     description: Path to in-toto files
   predicate-type:
